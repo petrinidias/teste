@@ -1,0 +1,264 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    background-color: var(--primary-color);
+}
+
+/*dark mode*/
+
+:root {
+    --primary-color: #f3f3f3;
+    --secundary-color: black;
+    --tertiary-color: rgb(245, 245, 245);
+    --main: #0077ff;
+}
+
+.dark-theme {
+    --primary-color: rgb(25, 25, 25);
+    --secundary-color: #f3f3f3;
+    --tertiary-color: rgb(22, 22, 22);
+}
+
+#theme{
+    font-size: 1px;
+    cursor: pointer;
+    color: var(--secundary-color);
+    width: 20px;
+    height: 20px;
+}
+
+/*barra de rolagem*/
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main);
+
+}
+
+
+
+
+/*menu*/
+
+.logo{
+    color: var(--secundary-color);
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.menu{
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 120px;
+    
+}
+
+#i {
+    background-color: var(--primary-color);
+    width: 80px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid rgba(194, 194, 194, 0.507);
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#i:hover{
+    border: 1px solid var(--main);
+    color: var(--secundary-color);
+}
+
+#s {
+    background-color: var(--main);
+    width: 80px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid rgba(194, 194, 194, 0.507);
+    text-decoration: none;
+    color: white;
+    
+}
+#s a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+#s:hover{
+    border: 1px solid var(--secundary-color);
+}
+
+.ulmenu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.menu p{
+    font-weight: 600;
+}
+
+/*boas vindas*/
+
+#txt{
+    color: var(--secundary-color);
+}
+
+.highlight1{
+    color: var(--main);
+}
+
+.greetings{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 70vh;
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    padding-top: 30px;
+}
+#downarrow{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
+    color: var(--secundary-color)
+}
+.greetings p{
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--secundary-color)
+}
+.greetings h4 .highlight1{
+    font-weight: 500;
+}
+.icon{
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+}
+.icon a{
+    color: var(--main);
+}
+.icon a:hover{
+    color: var(--secundary-color);
+    transform: scale(1.15);
+    transform: translateY(-2px);
+    transition: all 0.15s ease-in-out;
+}
+.icon #cv::after {
+    content: "Currículo";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    font-weight: 500; 
+    color: var(--secundary-color);
+    opacity: 0; /* inicialmente invisível */
+    transition: opacity 0.3s ease; /* efeito */
+}
+.icon #cv:hover::after {
+    opacity: 1; /* torna o texto visível no hover */
+}
+
+/*sobre mim*/
+
+.smcardfather{
+    background-color: var(--primary-color); 
+}
+
+.smcard{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 500px;
+    color: var(--secundary-color);
+    border: 1px solid rgb(1, 255, 255)
+}
+
+#bola {
+    font-size: 7px;
+}
+
+.smcardcontent{
+    height: 500px;
+    width: 750px;
+    padding: 30px;
+    padding-left: none;
+    font-weight: 300;
+    border: 1px solid red;
+}
+.smcardcontent strong{
+    font-weight: 600;
+}
+
+.smtxt{
+    padding-top: 13px;
+    font-weight: 500;
+}
+
+.card2{
+    width: 1000px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    border: solid 1px var(--secundary-color);
+    box-shadow:  7px 7px 0px var(--secundary-color);
+
+    font-size: 60px;
+}
+

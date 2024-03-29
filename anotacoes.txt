@@ -1,0 +1,21 @@
+                    <p class="smtxt">Desde criança sempre me encantei pela arte digital, passando horas no Paint. 
+                        Fiz um curso de design gráfico e trabalhei como freelancer na área. Foi nesse caminho que 
+                        descobri a programação. Hoje, como front-end developer, uno minha paixão pela arte digital 
+                        com meu conhecimento em programação para criar experiências visuais na web.<br><br> Estou em 
+                        <spam class="highlight1">constantes estudos</spam>, tenho paixão em me superar e almejo em 
+                        <spam class="highlight1">dominar</spam> a área da tecnologia em um breve futuro.</p>
+
+<p><strong>LearNXperience</strong> é uma biblioteca onde os 
+                                usuários podem encontrar uma vasta gama de links para cursos gratuitos de 
+                                programação em diferentes áreas, como desenvolvimento web, mobile, 
+                                data science, entre outros.<br><br>Desenvolvi esse projeto pessoal com <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong> para aprimorar
+                                algumas de minhas habilidades. Priorizei menus <strong>responsivos</strong> e intuitivos
+                                 para uma boa experiência em diversos dispositivos. Também adicionei um
+                                </strong>sistema de alternância entre temas claro e escuro com JavaScript</strong> para
+                                   personalização visual. 
+
+
+
+Atualmente, estou em processo de graduação em ADS na universidade UniCarioca, pessoalmente estou me especializando em desenvolvimento Front-End Completo.
+
+gethours portffolio
